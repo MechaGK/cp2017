@@ -1,5 +1,7 @@
 package cp.week6;
 
+import cp.week6.Exercise1.Counter;
+
 /**
  *
  * @author Fabrizio Montesi <fmontesi@imada.sdu.dk>
@@ -13,4 +15,13 @@ public class Exercise5
 	- The two counter objects should be public.
 	- Implement the method boolean areEqual() in Point, which returns true if the two counters store the same value.
 	*/
+
+	public static class Point {
+	    public Counter x;
+	    public Counter y;
+
+	    public synchronized boolean areEqual() {
+	        return x.getValue() == y.getValue();
+        }
+    }
 }

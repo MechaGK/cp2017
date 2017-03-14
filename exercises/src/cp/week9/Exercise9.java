@@ -77,7 +77,7 @@ public class Exercise9
 
         private static final int NUM_PRODUCERS = 3;
 
-        public static void run()
+        public static void main(String[] args)
         {
             CountDownLatch latch = new CountDownLatch( NUM_PRODUCERS );
             IntStream.range( 0, NUM_PRODUCERS ).forEach(

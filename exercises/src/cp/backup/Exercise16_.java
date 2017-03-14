@@ -1,10 +1,10 @@
-package cp.week9;
+package cp.backup;
 
 /**
  *
  * @author Fabrizio Montesi <fmontesi@imada.sdu.dk>
  */
-public class Exercise16
+public class Exercise16_
 {
 	/*
 	- From Exercise15, use submit(Callable) at the executor to get a Future
